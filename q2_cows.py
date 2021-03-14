@@ -77,7 +77,7 @@ plt.legend(loc='best')
 plt.xlabel('Time (years)')
 plt.ylabel('Cows')
 plt.grid()
-# plt.savefig('q10_cows.png', dpi=300, bbox_inches='tight')
+plt.savefig('q2_cows.png', dpi=300, bbox_inches='tight')
 
 # plt.figure(1)
 # plt.plot(range(K+1), dPdt2, 'b-')
